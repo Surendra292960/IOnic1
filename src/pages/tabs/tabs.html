@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Tabs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-tabs>
+    <ion-tab [root]="tab1Root"></ion-tab>
+    <ion-tab [root]="tab2Root"></ion-tab>
+    <ion-tab [root]="tab3Root"></ion-tab>
+  </ion-tabs>
+
+  <ion-tabs selectedIndex="2">
+      <ion-tab [root]="tab1Root"></ion-tab>
+      <ion-tab [root]="tab2Root"></ion-tab>
+      <ion-tab [root]="tab3Root"></ion-tab>
+    </ion-tabs>
+
+
+    <ion-tabs #myTabs>
+        <ion-tab [root]="tab1Root"></ion-tab>
+        <ion-tab [root]="tab2Root"></ion-tab>
+        <ion-tab [root]="tab3Root"></ion-tab>
+      </ion-tabs>

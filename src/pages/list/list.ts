@@ -28,10 +28,11 @@ export class ListPage {
     }
   }
 
-  itemTapped(event, item) {
+  itemTapped(event, item) { window.open('https://www.youtube.com/', '_system'); 
+
     // That's right, we're pushing to ourselves!
-    this.navCtrl.push(ListPage, {
-      item: item
-    });
+    // this.navCtrl.push(ListPage, {
+    //  // item: item
+    // });
   }
 }
